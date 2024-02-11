@@ -26,8 +26,15 @@ PandoraAI 是一个网络聊天客户端，基于 [node-chatgpt-api](https://git
 ## 设置
 
 确保安装依赖项：
+下载安装包[NodeJS](https://nodejs.org/en/download/)
+CMD以管理员权限运行`msiexec/package D:\software\node\node-v11.1.0-x64.msi` 此处修改为你的安装包路径位置
+
 
 ```bash
+
+npm install --global yarn
+npm install --global pnpm
+
 # yarn
 yarn install
 
