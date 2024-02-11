@@ -66,7 +66,7 @@ npm run preview
 ## 设置
 
 1. 请按照上面的 Nuxt 3 设置说明进行操作。
-2. R从 [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api#api-server)运行 API 服务器。
+2. 从 [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api#api-server)运行 API 服务器。
 3. Copy `.env.example` to `.env` and fill in the `API_BASE_URL` variable with the URL of the API server.
 4. 将 `.env.example` 复制到 `.env` 并使用 API 服务器的 URL 填充 `API_BASE_URL` 变量。
    1. 将 `.env.example` 复制到 `.env` 并使用 API 服务器的 URL 填充 `API_BASE_URL` 变量。
