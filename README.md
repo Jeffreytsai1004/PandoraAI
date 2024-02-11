@@ -4,28 +4,28 @@
 
 # PandoraAI
 
-PandoraAI is a web chat client powered by [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api), allowing users to easily chat with multiple AI systems while also offering support for custom presets. With its seamless and convenient design, PandoraAI provides an engaging conversational AI experience.
+PandoraAI 是一个网络聊天客户端，基于 [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api), 允许用户轻松与多个人工智能系统聊天，同时还提供对自定义预设的支持。 凭借其无缝且便捷的设计，PandoraAI 提供了引人入胜的对话式 AI 体验。
 
-Built using [Nuxt 3](https://v3.nuxtjs.org/), a Vue 3 framework.  
-You may also use PandoraAI with other API server implementations as long as the endpoints are compatible.
+构建使用 [Nuxt 3](https://v3.nuxtjs.org/), a Vue 3 框架.  
+只要端点兼容，您也可以将 PandoraAI 与其他 API 服务器实现一起使用。
 
-## Features
+## 功能
 
-- Chat with all the AI that `node-chatgpt-api` supports, including `gpt-3.5-turbo`, `text-davinci-003`, ChatGPT, and Bing.
-- Supports creating multiple presets for each client.  
+- 与`node-chatgpt-api`支持的所有 AI 聊天，包括`gpt-3.5-turbo`、`text-davinci-003`、ChatGPT 和 Bing。
+- 支持为每个客户端创建多个预设。
 ![Client Settings](demos/client-settings.png) 
-- Choose between different clients or custom presets.  
+- 在不同的客户端或自定义预设之间进行选择。
 ![Client Dropdown](demos/client-dropdown.png)
-- Everything is stored in local storage, so you can use this client without an account, and it can be imported or exported to other devices.
+- 所有内容都存储在本地存储中，因此您无需帐户即可使用此客户端，并且可以将其导入或导出到其他设备。
 
 <details>
 <summary><strong>Nuxt 3 Setup</strong></summary>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+访问 [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) 来学习。
 
-## Setup
+## 设置
 
-Make sure to install the dependencies:
+确保安装依赖项：
 
 ```bash
 # yarn
@@ -38,41 +38,41 @@ npm install
 pnpm install
 ```
 
-## Development Server
+## 开发服务器
 
-Start the development server on http://localhost:3000
+在 http://localhost:3000 上启动开发服务器
 
 ```bash
 npm run dev
 ```
 
-## Production
+## 产品
 
-Build the application for production:
+构建生产应用程序：
 
 ```bash
 npm run build
 ```
 
-Locally preview production build:
+本地预览生产版本：
 
 ```bash
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+访问 [deployment documentation](https://nuxt.com/docs/getting-started/deployment) 获取更多信息。
 </details>
 
-## Setup
+## 设置
 
-1. Follow the Nuxt 3 setup instructions above.
-2. Run the API server from [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api#api-server).
+1. 请按照上面的 Nuxt 3 设置说明进行操作。
+2. R从 [node-chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api#api-server)运行 API 服务器。
 3. Copy `.env.example` to `.env` and fill in the `API_BASE_URL` variable with the URL of the API server.
-4. Run `npm run dev` to start the development server, or `npm run build` to build the application for production.
-   1. If you see an empty white page after pulling the latest changes, run `nuxi upgrade --force` first and then `npm run dev`.
+4. 将 `.env.example` 复制到 `.env` 并使用 API 服务器的 URL 填充 `API_BASE_URL` 变量。
+   1. 将 `.env.example` 复制到 `.env` 并使用 API 服务器的 URL 填充 `API_BASE_URL` 变量。
 
-## Contributing
-If you'd like to contribute to this project, please create a pull request with a detailed description of your changes.
+## 贡献
+如果您想为此项目做出贡献，请创建一个拉取请求并详细描述您的更改。
 
-## License
-This project is licensed under the MIT License.
+## 注册表
+该项目已获得 MIT 许可证的许可。
